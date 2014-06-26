@@ -22,14 +22,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS = (('Python', 'http://python.org'),
+         ('Pelican', "http://http://blog.getpelican.com"),
+         ('社区大妈', "http://zoomquiet.io"),)
 
-# Social widget
-SOCIAL = (('GitHub', 'http://github.com/chifeng'),
-	 )
+SOCIAL = (('Twitter', 'http://twitter.com/chifeng'),
+          ('Github', 'http://github.com/chifeng'),)
 
 DEFAULT_PAGINATION = 9
 
@@ -38,3 +36,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 THEME = "_themes/pelican-bootstrap3"
 BOOTSTRAP_THEME = 'readable'
+DISQUS_SITENAME = 'chifeng'
+GITHUB_URL = 'http://github.com/chifeng'
+GOOGLE_ANALYTICS = 'UA-52310651-1'
+TWITTER_USERNAME = 'chifeng'

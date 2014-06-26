@@ -6,10 +6,16 @@ Slug: the-first-post
 Author: Chifeng
 Summary: This is first post to test functions of Pelican which is a Python blog system. There is a list to share my online information, please feel free to contact me. 第一篇文章，主要用来测试Pelican的功能，另外列出一些自己的个人信息供联系
 
-This is first post to test functions of Pelican which is a Python blog system. There is a list to share my online information, please feel free to contact me. 
-第一篇文章，主要用来测试Pelican的功能，另外列出一些自己的个人信息供联系
+This is the first post to test functions of Pelican which is a Python blog system. There is a list to share my online information, please feel free to contact me. 
 
-个人信息如下:
+第一篇文章，主要用来测试Pelican的功能，另外列出一些自己的个人信息供联系
+<br />
+<br />
+
+
+
+#####Personal Information Below:
+#####个人信息如下:
 
  - Blog: http://blog.chifeng.name/
  - Facebook:  http://facebook.com/quchifeng
