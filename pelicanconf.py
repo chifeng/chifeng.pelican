@@ -29,6 +29,26 @@ LINKS = (('Python', 'http://python.org'),
 SOCIAL = (('Twitter', 'http://twitter.com/chifeng'),
           ('Github', 'http://github.com/chifeng'),)
 
+#PLUGINS=['_plugins.sitemap'
+#    #, '_plugins.extract_toc'
+#    ]
+PLUGIN_PATH = '_plugins'
+PLUGINS=['sitemap',]
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
 DEFAULT_PAGINATION = 9
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
