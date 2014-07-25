@@ -1,8 +1,6 @@
 .python-version
 local_settings.ini
 output/
-_themes/
-_plugins/
 .DS_Store
 
 *.py[cod]
