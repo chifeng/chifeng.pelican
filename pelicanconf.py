@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Chifeng'
 SITENAME = u"Chifeng's Blog"
-SITEURL = 'http://blog.chifeng.name'
+SITEURL = 'http://blog.chifeng.io'
 DISQUS_SITENAME = u"blogchifengname"
 
 TIMEZONE = 'Asia/Shanghai'
@@ -22,9 +22,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Python', 'http://python.org'),
-         ('Pelican', "http://http://blog.getpelican.com"),
-         ('社区大妈', "http://zoomquiet.io"),)
+LINKS = (('QPython', 'http://qpython.com'),
+         ('ZoomQuiet', "http://zoomquiet.io"),)
 
 SOCIAL = (('Twitter', 'http://twitter.com/chifeng'),
           ('Github', 'http://github.com/chifeng'),)
@@ -32,7 +31,7 @@ SOCIAL = (('Twitter', 'http://twitter.com/chifeng'),
 #PLUGINS=['_plugins.sitemap'
 #    #, '_plugins.extract_toc'
 #    ]
-PLUGIN_PATH = '_plugins'
+PLUGIN_PATHS = '_plugins'
 PLUGINS=['sitemap',]
 
 SITEMAP = {
@@ -55,6 +54,7 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 THEME = "_themes/pelican-bootstrap3"
+#THEME = "/Users/chifeng/chifeng/cms/pelican-themes/tuxlite_tbs"
 BOOTSTRAP_THEME = 'readable'
 DISQUS_SITENAME = 'chifeng'
 GITHUB_URL = 'http://github.com/chifeng'
